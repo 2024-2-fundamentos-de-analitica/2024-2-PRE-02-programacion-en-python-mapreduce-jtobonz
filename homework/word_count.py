@@ -145,8 +145,7 @@ def run_job(input_directory, output_directory):
     save_output(output_directory, sequence)
     create_marker(output_directory)
 
-    from pprint import pprint
-    pprint(sequence)
+    print(sequence)
 
 if __name__ == "__main__":
     run_job(

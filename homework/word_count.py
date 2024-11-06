@@ -6,9 +6,6 @@ import fileinput
 import glob
 import os.path
 import string
-from email.policy import strict
-from idlelib.iomenu import encoding
-from itertools import groupby
 
 
 #
